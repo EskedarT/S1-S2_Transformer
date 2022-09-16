@@ -16,7 +16,7 @@ To train a model, the user needs to provide an area of interest in GEE geometry 
 
 The script is provided in a jupyter notebook format to avoid errors when running the script. This should make it easier for users to run the code in Google colab without worrying about software dependencies.
 
-# Dependencies
+## Dependencies
 
 The scripts are written in Tensorflow 2.8 so there may be issues with earlier versions of Tensorflow. There maybe issues when using later versions of tensorflow.
 
