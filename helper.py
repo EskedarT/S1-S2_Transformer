@@ -1052,7 +1052,6 @@ def get_dataset(TRAIN_FILE_PATH, TEST_FILE_PATH, VALIDATION_FILE_PATH, FEATURES_
 
     
 def model_builder(hp):
-  model = tf.keras.Sequential()
 
   he_init = tf.keras.initializers.GlorotNormal()
   hp_units = hp.Int('filters', min_value=32, max_value=1024, step=32)
