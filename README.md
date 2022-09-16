@@ -12,7 +12,7 @@ The architecture used in this implementation is a siamese arechitecture with tra
 
 ## Usage
 
-To train a model, the user needs to provide an area of interest in GEE geometry format and run the prepare_data.ipynb first to prepare the training datasets. It is assumed the user has access to a Google Cloud Storage buckets. Time series smoothing using a moving median filter is implemented to smoothen both Sentinel-1 and Sentinel-2 time series. The user can select the smoothing interval in the params dictionary. 
+To train a model, the user needs to provide an area of interest in GEE geometry format and run the prepare_data.ipynb first to prepare the training datasets. It is assumed the user has access to a Google Cloud Storage bucket. Time series smoothing using a moving median filter is implemented to smoothen both Sentinel-1 and Sentinel-2 time series. The user can select the smoothing interval in the params dictionary. 
 
 The script is provided in a jupyter notebook format. This should make it easier for users to run the code in Google colab without worrying about software dependencies.
 
