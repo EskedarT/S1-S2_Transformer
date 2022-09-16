@@ -1,4 +1,4 @@
-# S1-S2_Transformer
+# S1-S2-Transformer
 
 ##Introduction
 
