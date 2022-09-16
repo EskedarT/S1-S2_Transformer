@@ -15,6 +15,7 @@ from google.cloud import storage
 ###########################################
 # S2 PREPROCESSING
 ###########################################
+#These helper functions are adopted from https://developers.google.com/earth-engine/tutorials/community/sentinel-2-s2cloudless
 
 CLOUD_FILTER = 100
 CLD_PRB_THRESH = 30
