@@ -117,9 +117,9 @@ def NBRaddTimeline(image):
     nbr = nir.subtract(swir2).divide(nir.add(swir2)).rename('NBR')
     return image.addBands(nbr)
 
-#****************************
-# SENTINEL-1 preprocessing
-#****************************
+###########################################
+# S1 PREPROCESSING
+###########################################
 
 #-------------------------//
 # convert linear to db and vice versa
